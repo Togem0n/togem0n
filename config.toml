@@ -1,15 +1,14 @@
-# The URL the site will be built for
-base_url = "https://example.com"
+# Be sure to change these!
+base_url = "https://pawroman.github.io/zola-theme-terminimal"
 title = "Zola Terminimal theme"
 
-theme = "terminimal"
+# Sass compilation is required
+compile_sass = true
 
+# Optional: enable tags
 taxonomies = [
     {name = "tags"}
 ]
-
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
 
 # Code highlighting
 [markdown]
